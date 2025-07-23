@@ -8,8 +8,6 @@
     "dev": "vite",
     "lint": "eslint .",
     "preview": "vite preview",
-    "predeploy": "npm run build",
-    "deploy": "ite -d build",
     "build": "vite build"
   },
   "dependencies": {

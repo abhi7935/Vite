@@ -3,12 +3,14 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://gitname.github.io/Vite",
+  "homepage": "https://abhi7935.github.io/Vite",
   "scripts": {
     "dev": "vite",
     "lint": "eslint .",
     "preview": "vite preview",
-    "build": "vite build"
+    "build": "vite build",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist"
   },
   "dependencies": {
     "react": "^19.1.0",

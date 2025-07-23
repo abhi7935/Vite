@@ -3,7 +3,7 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://abhi7935.github.io/Vite",
+  "homepage": "https://abhi7935.github.io/vite",
   "scripts": {
     "predeploy": "npm run build",
     "deploy": "gh-pages -d dist",

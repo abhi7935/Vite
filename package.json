@@ -3,10 +3,9 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://abhi7935.github.io/Vite",
   "scripts": {
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d dist",
+    "deploy": "npm run build",
     "dev": "vite",
     "lint": "eslint .",
     "preview": "vite preview",

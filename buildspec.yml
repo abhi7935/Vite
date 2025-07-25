@@ -9,14 +9,10 @@ phases:
       - npm ci
   build:
     commands:
-      - echo Build started on `date`
+      - echo Building React app...
       - npm run build
-  post_build:
-    commands:
-      - echo Build completed on `date`
-      - echo Zipping files...
-      - zip -r dist.zip dist
 artifacts:
   files:
-    - dist/**/*
+    - '**/*'
   base-directory: dist
+  discard-paths: no
